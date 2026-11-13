@@ -1,3 +1,3 @@
 - global -> init -> main -> function
 - go mod init "name"
-- IIFE = Immediately Invoke Function Expression
+- IIFE = Immediately Invoked Function Expression
