@@ -1,3 +1,4 @@
 - global -> init -> main -> function
 - go mod init "name"
 - IIFE = Immediately Invoked Function Expression
+- Higher Order Function can have function (CallBack Function) as parameter, return function
