@@ -1,4 +1,6 @@
 - global -> init -> main -> function
 - go mod init "name"
 - IIFE = Immediately Invoked Function Expression
-- Higher Order Function can have function (CallBack Function) as parameter, return function
+- Higher Order Function can have function as parameter, return function
+- Higher Order Function is also called First Class Function
+- Function that is passed to Higher Order Function as parameter is called Callback Function 
