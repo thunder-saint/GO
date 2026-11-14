@@ -1,4 +1,4 @@
-- Code Segment: holds all functions
+- Code Segment: holds all functions and constants  
 - Data Segment: holds global info
 - Stack:
   - functions are called here
