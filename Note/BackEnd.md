@@ -1,9 +1,9 @@
-# *** Basic ***
+# Basic
 - global -> init -> main -> function
 - go mod init "name"
 ---
 
-# *** Function ***
+# Function
 - IIFE = Immediately Invoked Function Expression
 - Higher Order Function can have function as parameter, return function
 - Higher Order Function is also called First Class Function
@@ -12,7 +12,7 @@
 - Escape Analysis: When an inner function references an outer variable, the Go compiler performs escape analysis to move that variable from the stack to the heap
 ---
 
-# *** Internal Memory ***
+# Internal Memory
 - Code Segment: holds all functions and constants
 - Data Segment: holds global info
 - Stack:
