@@ -1,7 +1,0 @@
-- Code Segment: holds all functions and constants  
-- Data Segment: holds global info
-- Stack:
-  - functions are called here
-  - portion that is allocated for a function in here is called Stack Frame
-- Heap:
-  -  
