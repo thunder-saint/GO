@@ -11,21 +11,21 @@
 - A closure is a function that captures and retains access to variables from its surrounding scope, even after that scope has finished executing
 - Escape Analysis: When an inner function references an outer variable, the Go compiler performs escape analysis to move that variable from the stack to the heap
 - Receiver Function:
-  type user struct {
-	name string
-	roll int
-}
-func (me user) printDetails(a int) {
-	fmt.Println(me.name)
-	fmt.Println(a)
-}
-func main() {
-	u := user{
-		name: "xyz",
-		roll: 05,
-	}
-	u.printDetails(20)
-}
+  - type user struct {
+   -	name string
+   -	roll int
+  - }
+  - func (me user) printDetails(a int) {
+    - fmt.Println(me.name)
+    - fmt.Println(a)
+  - }
+  - func main() {
+	 - u := user{
+	  	- name: "xyz",
+		- roll: 05,
+     - }
+  - u.printDetails(20)
+  - }
 ---
 
 # Internal Memory
